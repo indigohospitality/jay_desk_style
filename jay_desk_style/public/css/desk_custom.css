@@ -22,9 +22,8 @@ body, .desk-body, .workspace-page {
     color: #8d99a6;
 }
 
-.desk-page .container,
-.desk-page .container-fluid {
+/* Full-width workspace content — overrides Bootstrap's .container
+   max-width breakpoints used by Frappe's page-body wrapper */
+.page-body.container {
     max-width: 100% !important;
-    padding-left: 24px;
-    padding-right: 24px;
 }
