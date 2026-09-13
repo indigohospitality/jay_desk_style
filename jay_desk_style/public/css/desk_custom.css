@@ -27,3 +27,7 @@ body, .desk-body, .workspace-page {
 .page-body.container {
     max-width: 95% !important;
 }
+
+.page-wrapper .container {
+    max-width: 95% !important;
+}
