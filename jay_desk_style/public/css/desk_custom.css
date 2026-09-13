@@ -25,5 +25,5 @@ body, .desk-body, .workspace-page {
 /* Full-width workspace content — overrides Bootstrap's .container
    max-width breakpoints used by Frappe's page-body wrapper */
 .page-body.container {
-    max-width: 100% !important;
+    max-width: 95% !important;
 }
