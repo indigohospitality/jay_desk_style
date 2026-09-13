@@ -80,13 +80,13 @@ function initDeskGreeting() {
 			$greeting = $(`
 				<div class="jay-desk-greeting" style="
 					flex: 1;
-					text-align: right;
-					font-size: 12px;
-					color: var(--text-muted, #8d99a6);
-					padding: 0 12px;
-					white-space: nowrap;
-					overflow: hidden;
-					text-overflow: ellipsis;
+		    text-align: right;
+    font-size: 15px;
+    color: #db00a0 !important;
+    padding: 0 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 				"></div>
 			`);
 			const $actions = $pageHead.find(".page-actions, .standard-actions").first();
