@@ -22,12 +22,15 @@ body, .desk-body, .workspace-page {
     color: #8d99a6;
 }
 
-/* Full-width workspace content — overrides Bootstrap's .container
-   max-width breakpoints used by Frappe's page-body wrapper */
-.page-body.container {
-    max-width: 95% !important;
-}
-
-.page-wrapper .container {
+/* Full-width Desk content — overrides Bootstrap's .container
+   max-width breakpoints everywhere on the Desk (list views,
+   workspace/home, doctype forms, reports, etc). Safe to leave
+   unscoped since this file only loads on Desk pages. */
+.container,
+.container-fluid,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
     max-width: 95% !important;
 }
