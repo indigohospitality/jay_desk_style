@@ -1,0 +1,7 @@
+include *.txt
+recursive-include jay_desk_style *.css
+recursive-include jay_desk_style *.js
+recursive-include jay_desk_style *.json
+recursive-include jay_desk_style *.md
+recursive-include jay_desk_style *.py
+recursive-exclude jay_desk_style *.pyc
