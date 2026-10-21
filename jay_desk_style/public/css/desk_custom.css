@@ -49,3 +49,7 @@ body, .desk-body, .workspace-page {
     border: 1px solid #c3c1c1;
     padding: 11px !important;
 }
+
+.widget.number-widget-box {
+    filter: drop-shadow(2px 5px 5px #c4c4c4);
+}
