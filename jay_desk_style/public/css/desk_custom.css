@@ -34,3 +34,10 @@ body, .desk-body, .workspace-page {
 .container-sm {
     max-width: 95% !important;
 }
+
+[data-page-route=Workspaces] .sidebar-item-container {
+    position: relative;
+    margin-left: -10px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 5px;
+}
