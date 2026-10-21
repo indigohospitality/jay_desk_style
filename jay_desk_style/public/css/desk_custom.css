@@ -41,3 +41,11 @@ body, .desk-body, .workspace-page {
     border-bottom: 1px solid #dddddd;
     padding-bottom: 5px;
 }
+
+.widget.shortcut-widget-box {
+    cursor: pointer;
+    padding: 2px 7px;
+    align-items: flex-start;
+    border: 1px solid #c3c1c1;
+    padding: 11px !important;
+}
