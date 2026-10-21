@@ -50,6 +50,7 @@ body, .desk-body, .workspace-page {
     padding: 11px !important;
 }
 
-.widget.number-widget-box {
+[data-page-route=Workspaces] .widget.number-widget-box {
+    border: 1px solid var(--border-color);
     filter: drop-shadow(2px 5px 5px #c4c4c4);
 }
